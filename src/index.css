@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.row{
+    @apply flex flex-wrap
+  }
+  .active{
+    @apply bg-[#1abc9c] p-3 rounded-xl
+  }
+  
